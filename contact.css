@@ -1,6 +1,4 @@
-.banner {
-    background-color: #fff;
-}
+
 
 .container h1 {
     font-size: 100px;
@@ -53,7 +51,7 @@
 .dropdown-item:hover {
     .dditem1 {
     border-bottom:3px solid orangered;
-}
+} 
 }
 
 
@@ -70,6 +68,32 @@
 .btn:hover {
    transition: 0.5s;
     box-shadow: 8px 10px 0 black;
+}
+
+.mobile-menu:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+.mobile-menu:active {
+    color: orangered;
+}
+
+.btn1 {
+    font-weight: 500;
+     background: orangered; 
+     border: orangered 3px solid; 
+      border-radius: 30px;
+       font-size: 30px; 
+       color: white;
+        padding: 5px 40px;
+}
+
+.btn1:hover {
+    background: transparent;
+    border-color: orangered;
+    color: orangered;
+    transition: 0.5s all ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -91,31 +115,3 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-
-  .mobile-menu:hover {
-    color: orangered;
-    transition: 0.5s;
-}
-
-.mobile-menu:active {
-    color: orangered;
-}
-
-
-.btn1 {
-    background: orangered;
-    border: 2px solid rgb(191, 52, 1);
-    color: white;
-    font-weight: 500;
-    border-radius: 30px;
-    font-size: 30px;
-    padding: 5px 50px; 
-    text-decoration: none;
-}
-
-.btn1:hover {
-    background: transparent;
-    border-color: orangered;
-    color: orangered;
-    text-decoration: none;
-}

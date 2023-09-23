@@ -110,12 +110,26 @@
     border-radius: 30px;
     font-size: 30px;
     padding: 5px 50px; 
-    text-decoration: none;
 }
 
 .btn1:hover {
     background: transparent;
     border-color: orangered;
     color: orangered;
-    text-decoration: none;
+}
+
+.btn2 {
+    background: orangered;
+    border: 2px solid rgb(191, 52, 1);
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 4px 30px; 
+}
+
+.btn2:hover {
+    background: transparent;
+    border-color: orangered;
+    color: orangered;
 }
